@@ -1,0 +1,16 @@
+{
+  "name": "capital-tristate-website",
+  "version": "1.0.0",
+  "description": "Capital Tristate Real Estate Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "deploy": "npx netlify deploy --prod --dir=."
+  },
+  "keywords": ["real-estate", "portfolio", "phoenix"],
+  "author": "Capital Tristate",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-cli": "^27.11.0"
+  }
+}
